@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding : 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Tahoma';
+}
+
+input{
+	border-radius: 3px;
+	padding: 3px;
+	margin: 3px;
+	display: block;
+}
+
+button{
+	border-radius: 3px;
+	padding: 3px;
+	margin: 3px;
+	display: block;
+}
+
+div{
+	float: left;
+	width: 100%;
+	text-align: center;
+	text-align: -moz-center;
+	margin-top: 15%;
+	padding-top:5%;
+	padding-bottom:5%;
+	
+	
+	 background: linear-gradient(179deg, #a8a8a8, #6e6e6e);
+background-size: 400% 400%;
+
+-webkit-animation: gradientDown 0s ease infinite;
+-moz-animation: gradientDown 0s ease infinite;
+animation: gradientDown 0s ease infinite;
+
+@-webkit-keyframes gradientDown {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes gradientDown {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes gradientDown {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+	
+	
+}
+
+/*.sign-up-box*/
+h1{
+	/*font-size: 20px;
+	font-weight: 500;*/
+	padding-bottom: 1%;
+}
